@@ -15,14 +15,13 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-    ]);
-});
+Route::get('/', function () {return Inertia::render('Welcome');});
+Route::get('/welcome', function () {return Inertia::render('Welcome');})->name('welcome');
+Route::get('/about', function () {return Inertia::render('about');})->name('about');
+Route::get('/services', function () {return Inertia::render('services');})->name('services');
+Route::get('/works', function () {return Inertia::render('works');})->name('works');
+Route::get('/testimony', function () {return Inertia::render('testimony');})->name('testimony');
+Route::get('/contact', function () {return Inertia::render('contact');})->name('contact');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');

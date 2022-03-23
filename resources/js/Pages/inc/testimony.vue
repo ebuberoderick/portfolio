@@ -1,6 +1,6 @@
 <template>
     <div class="bg-gray-100 overflow-hidden mx-auto rounded-xl p-8 dark:bg-gray-800">
-        <img class="w-24 h-24 rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512">
+        <img class="w-24 h-24 rounded-full mx-auto" src="imgs/avatar/3.jpeg" alt="" width="384" height="512">
         <div class="pt-6 md:p-8 text-center space-y-4">
             <div>
                 <div class="text-lg font-medium">

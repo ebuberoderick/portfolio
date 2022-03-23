@@ -15,11 +15,11 @@
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus vero provident enim explicabo sapiente, hic officia nobis deleniti, expedita labore vel. Laborum ipsam in 
                 </div>
                 <div class="flex items-center gap-3">
-                    <div class="py-2 px-8 text-lg text-white cursor-pointer bg-green-400">About Me</div>
-                    <div class=""><i class="ri-facebook-circle-line text-3xl relative top-1 dark:text-gray-300 cursor-pointer hover:scale-75"></i></div>
-                    <div class=""><i class="ri-whatsapp-line text-3xl relative top-1 dark:text-gray-300 cursor-pointer hover:scale-75"></i></div>
-                    <div class=""><i class=" ri-linkedin-box-line text-3xl relative top-1 dark:text-gray-300 cursor-pointer hover:scale-75"></i></div>
-                    <div class=""><i class="ri-github-line text-3xl relative top-1 dark:text-gray-300 cursor-pointer hover:scale-75"></i></div>
+                    <Link :href="'about'" class="py-2 px-8 text-lg text-white cursor-pointer bg-green-400">About Me</Link>
+                    <a href="https://github.com/ebuberoderick" target="blank" class=""><i class="ri-facebook-circle-line text-3xl relative top-1 dark:text-gray-300 cursor-pointer hover:scale-75"></i></a>
+                    <a href="https://github.com/ebuberoderick" target="blank" class=""><i class="ri-whatsapp-line text-3xl relative top-1 dark:text-gray-300 cursor-pointer hover:scale-75"></i></a>
+                    <a href="https://github.com/ebuberoderick" target="blank" class=""><i class=" ri-linkedin-box-line text-3xl relative top-1 dark:text-gray-300 cursor-pointer hover:scale-75"></i></a>
+                    <a href="https://github.com/ebuberoderick" target="blank" class=""><i class="ri-github-line text-3xl relative top-1 dark:text-gray-300 cursor-pointer hover:scale-75"></i></a>
                 </div>
             </div>
         </div>
@@ -126,30 +126,37 @@
             </div>
         </div>
     </div>
-    <div class="max-w-7xl mx-auto">
-        <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 text-center">
-            <div class="col-span-2 sm:col-span-3 xl:col-span-6 text-xl font-extrabold py-8 capitalize text-gray-400">companies i've worked with</div>
-            <div class=""></div>
-            <div class=""><img class="w-20 h-16 cursor-pointer" src="imgs/index2.png" alt="skyrootnet" style="filter: grayscale(100%);"></div>
-            <div class=""><img class="w-24 h-16 cursor-pointer" src="imgs/index.png" alt="programmers city" style="filter: grayscale(100%);"></div>
-            <div class=""><img class="w-16 h-16 cursor-pointer" src="imgs/cielogo.png" alt="cie" style="filter: grayscale(100%);"></div>
-            <div class=""><img class="w-28 h-12 cursor-pointer" src="imgs/logo.png" alt="lieresulte" style="filter: grayscale(100%);"></div>
-            <div class=""></div>
-        </div>
-        <div class="">recent</div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 px-3 py-12">
-            <div class="py-8"></div>
-            <div class="py-8 space-y-5">
-                <div class="text-4xl font-extrabold dark:text-gray-100">I'm <span class="text-yellow-400 font-mono uppercase">skilled</span> @</div>
-                <div class="">
-                    <progress-bar-vue  v-for="(skill,i) in 5" :key="i"></progress-bar-vue>
-                </div>
-                <div class="">
-                    <span class="text-lg cursor-pointer px-4 py-2 bg-green-400 uppercase text-white">view all skill</span>
+    <div class="py-8 px-3 my-8 bg-gray-100">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 px-3 py-12">
+                <div class="py-8"></div>
+                <div class="py-8 space-y-5">
+                    <div class="text-4xl font-extrabold dark:text-gray-100">I'm <span class="text-yellow-400 font-mono uppercase">skilled</span> @</div>
+                    <div class="">
+                        <progress-bar-vue  v-for="(skill,i) in 5" :key="i"></progress-bar-vue>
+                    </div>
+                    <div class="">
+                        <span class="text-lg cursor-pointer px-4 py-2 bg-green-400 uppercase text-white">view all skill</span>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="py-12 px-3 space-y-8">
+    </div>
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center text-4xl font-bold text-green-400" style="font-family:'Segoe Script'">i've worked with</div>
+        <div class="max-w-2xl mx-auto text-gray-400 text-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi tempore possimus reiciendis doloribus impedit rem distinctio quam pariatur officiis facilis omnis reprehenderit, dignissimos laborum veritatis ipsam! Explicabo quia quam voluptates?
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 text-center">
+            <div class="hidden xl:block"></div>
+            <div class="py-5"><img class="w-20 mx-auto h-16 cursor-pointer" src="imgs/index2.png" alt="skyrootnet" style="filter: grayscale(100%);"></div>
+            <div class="py-5"><img class="w-24 mx-auto h-16 cursor-pointer" src="imgs/index.png" alt="programmers city" style="filter: grayscale(100%);"></div>
+            <div class="py-5"><img class="w-16 mx-auto h-16 cursor-pointer" src="imgs/cielogo.png" alt="cie" style="filter: grayscale(100%);"></div>
+            <div class="py-5"><img class="w-28 mx-auto h-12 cursor-pointer" src="imgs/logo.png" alt="lieresulte" style="filter: grayscale(100%);"></div>
+            <div class="hidden xl:block"></div>
+        </div>
+        <div class="">recent</div>
+        <div class="py-12 pb-40 px-3 space-y-8">
             <div class="">
                 <div class="text-center text-4xl font-bold text-green-400" style="font-family:'Segoe Script'">What people say about me</div>
                 <div class="max-w-2xl mx-auto text-gray-400 text-center">
@@ -161,7 +168,7 @@
                     <testimonyVue v-for="(testimony,i) in 3" :key="i"></testimonyVue>
                 </div>
                 <div class="text-right">
-                    <span class="text-lg cursor-pointer px-4 py-2 bg-green-600 uppercase text-white rounded-tl-lg rounded-br-lg">read more</span>
+                    <Link :href="'testimony'" class="text-lg cursor-pointer px-4 py-2 bg-green-600 uppercase text-white rounded-tl-lg rounded-br-lg">read more</Link>
                 </div>
             </div>
         </div>

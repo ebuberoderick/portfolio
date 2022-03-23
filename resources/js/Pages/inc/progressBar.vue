@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <div class="uppercase">
+        <div class="uppercase dark:text-white">
             html
         </div>
         <div class="">
