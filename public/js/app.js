@@ -19148,7 +19148,7 @@ var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "capitalize font-bold text-lg"
+    "class": "capitalize font-bold text-lg dark:text-gray-50"
   }, "quick messages", -1
   /* HOISTED */
   );
@@ -20624,7 +20624,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": ""
-}, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, molestiae iusto! Excepturi impedit eum eius ipsam, magni nulla, ut sint voluptates sequi eveniet minima. Nisi reprehenderit nostrum corrupti dolorum tenetur. ", -1
+}, null, -1
 /* HOISTED */
 );
 
@@ -22287,7 +22287,7 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   style: {
     "top": "1px"
   }
-}, "Dashboard", -1
+}, "Manage Jobs", -1
 /* HOISTED */
 );
 
@@ -22296,21 +22296,39 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   style: {
     "top": "1px"
   }
-}, "Dashboard", -1
+}, "Manage Reviews", -1
 /* HOISTED */
 );
 
-var _hoisted_7 = {
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex-grow relative",
+  style: {
+    "top": "1px"
+  }
+}, "Manage Skills", -1
+/* HOISTED */
+);
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex-grow relative",
+  style: {
+    "top": "1px"
+  }
+}, "Quick Messages", -1
+/* HOISTED */
+);
+
+var _hoisted_9 = {
   "class": "py-3 space-y-1 relative"
 };
-var _hoisted_8 = {
+var _hoisted_10 = {
   "class": "flex flex-col relative bottom-1 md:bottom-2 justify-center space-y-4 md:h-60"
 };
-var _hoisted_9 = {
+var _hoisted_11 = {
   "class": "overflow-hidden relative hidden dark:block"
 };
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "p-3 text-white z-50 bg-gray-500 rounded-md inline-flex"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
   "class": "ri-sun-line dark:hidden transform hover:rotate-180 transition-all duration-300"
@@ -22320,7 +22338,7 @@ var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "bg-gray-300 px-3 py-2 relative rounded-r-lg group-hover:-left-2 -left-20 transition-all duration-300 cursor-pointer",
   style: {
     "bottom": "3.5px",
@@ -22330,12 +22348,12 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_12 = [_hoisted_10, _hoisted_11];
-var _hoisted_13 = {
+var _hoisted_14 = [_hoisted_12, _hoisted_13];
+var _hoisted_15 = {
   "class": "overflow-hidden relative dark:hidden"
 };
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "p-3 text-white z-50 bg-gray-500 rounded-md inline-flex"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
   "class": "ri-sun-line dark:hidden transform hover:rotate-180 transition-all duration-300"
@@ -22345,7 +22363,7 @@ var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "bg-gray-300 px-3 py-2 relative rounded-r-lg group-hover:-left-2 -left-20 transition-all duration-300 cursor-pointer",
   style: {
     "bottom": "3.5px",
@@ -22355,15 +22373,15 @@ var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_16 = [_hoisted_14, _hoisted_15];
+var _hoisted_18 = [_hoisted_16, _hoisted_17];
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"overflow-hidden relative\"><span class=\"cursor-pointer group\"><span class=\"p-3 text-white z-50 bg-purple-500 rounded-md inline-flex\"><i class=\"ri-line-chart-line\"></i></span><span class=\"bg-purple-300 px-3 py-2 relative rounded-r-lg group-hover:-left-2 -left-20 transition-all duration-300 cursor-pointer\" style=\"bottom:3.5px;z-index:-9999;\">traffic</span></span></div>", 1);
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"overflow-hidden relative\"><span class=\"cursor-pointer group\"><span class=\"p-3 text-white z-50 bg-purple-500 rounded-md inline-flex\"><i class=\"ri-line-chart-line\"></i></span><span class=\"bg-purple-300 px-3 py-2 relative rounded-r-lg group-hover:-left-2 -left-20 transition-all duration-300 cursor-pointer\" style=\"bottom:3.5px;z-index:-9999;\">traffic</span></span></div>", 1);
 
-var _hoisted_18 = {
+var _hoisted_20 = {
   "class": "overflow-hidden relative"
 };
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "p-3 text-white z-50 bg-red-500 rounded-md inline-flex"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
   "class": "ri-login-box-line"
@@ -22371,7 +22389,7 @@ var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "md:absolute w-full h-60 rounded-3xl bg-green-400 md:bottom-5 md:left-36"
 }, null, -1
 /* HOISTED */
@@ -22379,7 +22397,7 @@ var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["flex gap-3 items-center group cursor-pointer", $props.active == 'Dashboard' ? 'pl-5 text-green-600 dark:text-green-400' : 'hover:pl-5 hover:text-green-600 text-gray-300 dark:text-gray-300'])
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["flex gap-3 items-center group cursor-pointer", $props.active == 'Dashboard' ? 'pl-5 text-green-600 dark:text-green-400' : 'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'])
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["h-8 w-8 rounded-full group-hover:bg-green-400 group-hover:text-white", $props.active == 'Dashboard' ? 'bg-green-400' : 'bg-gray-400'])
   }, null, 2
@@ -22387,7 +22405,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   ), _hoisted_4], 2
   /* CLASS */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["flex gap-3 items-center group cursor-pointer", $props.active == 'set' ? 'pl-5 text-green-600 dark:text-green-400' : 'hover:pl-5 hover:text-green-600 text-gray-300 dark:text-gray-300'])
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["flex gap-3 items-center group cursor-pointer", $props.active == 'set' ? 'pl-5 text-green-600 dark:text-green-400' : 'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'])
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["h-8 w-8 rounded-full group-hover:bg-green-400 group-hover:text-white", $props.active == 'set' ? 'bg-green-400' : 'bg-gray-400'])
   }, null, 2
@@ -22395,29 +22413,45 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   ), _hoisted_5], 2
   /* CLASS */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["flex gap-3 items-center group cursor-pointer", $props.active == 'next' ? 'pl-5 text-green-600 dark:text-green-400' : 'hover:pl-5 hover:text-green-600 text-gray-300 dark:text-gray-300'])
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["flex gap-3 items-center group cursor-pointer", $props.active == 'next' ? 'pl-5 text-green-600 dark:text-green-400' : 'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'])
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["h-8 w-8 rounded-full group-hover:bg-green-400 group-hover:text-white", $props.active == 'next' ? 'bg-green-400' : 'bg-gray-400'])
   }, null, 2
   /* CLASS */
   ), _hoisted_6], 2
   /* CLASS */
-  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["flex gap-3 items-center group cursor-pointer", $props.active == 'next' ? 'pl-5 text-green-600 dark:text-green-400' : 'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'])
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["h-8 w-8 rounded-full group-hover:bg-green-400 group-hover:text-white", $props.active == 'next' ? 'bg-green-400' : 'bg-gray-400'])
+  }, null, 2
+  /* CLASS */
+  ), _hoisted_7], 2
+  /* CLASS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["flex gap-3 items-center group cursor-pointer xl:hidden", $props.active == 'next' ? 'pl-5 text-green-600 dark:text-green-400' : 'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'])
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["h-8 w-8 rounded-full group-hover:bg-green-400 group-hover:text-white", $props.active == 'next' ? 'bg-green-400' : 'bg-gray-400'])
+  }, null, 2
+  /* CLASS */
+  ), _hoisted_8], 2
+  /* CLASS */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
     "class": "cursor-pointer group",
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $options.toggleTheme();
     })
-  }, _hoisted_12)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  }, _hoisted_14)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
     "class": "cursor-pointer group",
     onClick: _cache[1] || (_cache[1] = function ($event) {
       return $options.toggleTheme();
     })
-  }, _hoisted_16)]), _hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  }, _hoisted_18)]), _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
     onClick: _cache[3] || (_cache[3] = function ($event) {
       return $options.logout();
     }),
     "class": "cursor-pointer group"
-  }, [_hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  }, [_hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
     onClick: _cache[2] || (_cache[2] = function ($event) {
       return $options.logout();
     }),
@@ -22426,7 +22460,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       "bottom": "3.5px",
       "z-index": "-9999"
     }
-  }, "logout")])])]), _hoisted_20])]);
+  }, "logout")])])]), _hoisted_22])]);
 }
 
 /***/ }),

@@ -39,7 +39,7 @@
                     <div class="fixed hidden xl:block w-96 h-screen top-0 right-0">
                         <div class="flex h-full w-full flex-col">
                             <div class="py-8"></div>
-                            <div class="capitalize font-bold text-lg">quick messages</div>
+                            <div class="capitalize font-bold text-lg dark:text-gray-50">quick messages</div>
                             <div class="flex-grow p-3 overflow-y-auto space-y-3">
                                 <div v-for="(index,i) in 7" :key="i" class="p-3 nuum dark:nuum border dark:border-gray-600 cursor-pointer">
                                     <div class="capitalize text-lg dark:text-gray-200 relative">onyemzoro ebube roderick <div class="absolute top-1 right-1 text-xs">2 seconds ago</div></div>
