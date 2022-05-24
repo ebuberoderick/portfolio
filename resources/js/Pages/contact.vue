@@ -1,6 +1,30 @@
 <template>
     <Head title="Contact Me"/>
-    <div class="bg-green-500 py-80"></div>
+    <div class="pt-24 pb-12 bg-green-50 dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-3">
+            <div class="bg-black py-24"></div>
+            <div class="lg:col-span-2 space-y-10">
+                <div class="">
+                    <div class="text-3xl text-gray-400">Always feel free to</div>
+                    <div class="text-green-400 text-6xl font-bold uppercase">reachout to me</div>
+                </div>
+                <div class="space-y-6 dark:text-gray-200">
+                    <div class="">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed animi porro, rerum vel praesentium fugit, autem quidem aspernatur distinctio debitis unde. Ipsum repellendus optio ratione eaque placeat, at odit possimus.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed animi 
+                    </div>
+                    <div class="">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam magni voluptatum hic mollitia assumenda unde, provident laborum accusantium, libero culpa, corrupti ullam ex incidunt possimus? Placeat ipsam praesentium aspernatur alias?
+                    </div>
+                </div>
+                <div class="flex pb-12">
+                    <div class="bg-white dark:bg-gray-500 dark:text-gray-100 shadow-lg py-12 px-10 rounded-tl-2xl rounded-br-2xl w-auto relative md:-left-32">
+                        Hi, thanks for contacting me 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="p-3">
         <menu-vue :active="active"></menu-vue>
         <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 mb-28">

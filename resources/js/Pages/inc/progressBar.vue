@@ -20,19 +20,19 @@ export default {
 </script>
 <style scoped>
     .progress-bar-striped{
-        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
         background-size: 1rem 1rem;
         -webkit-animation: 1s linear infinite progress-bar-stripes;
         animation: 1s linear infinite progress-bar-stripes;
     }
     @-webkit-keyframes progress-bar-stripes {
         0% {
-            background-position-x: 1rem;
+            background-position-x: -1rem;
         }
     }
     @keyframes progress-bar-stripes {
         0% {
-            background-position-x: 1rem;
+            background-position-x: -1rem;
         }
     }
 </style>

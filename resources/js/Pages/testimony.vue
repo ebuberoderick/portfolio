@@ -1,6 +1,22 @@
 <template>
     <Head title="Testimonies"/>
-    <div class="py-80 bg-green-500"></div>
+    <div class="pt-24 pb-20  bg-green-50 dark:bg-gray-900 px-3">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div class="flex w-full items-center">
+                <div class="">
+                    <div class="text-3xl dark:text-gray-200">My</div>
+                    <div class="text-4xl sm:text-6xl font-extrabold text-gray-700 dark:text-gray-50 capitalize"><span class="underline">priority</span> <span class="text-3xl dark:text-gray-200">is</span></div>
+                    <div class="text-4xl sm:text-6xl font-extrabold text-green-500 capitalize"><span class="text-3xl dark:text-gray-200 text-gray-700">your</span> satisfaction</div>
+                    <div class="max-w-lg mt-5 text-gray-500">
+                        Lorem, ipsum dolor sit amet consectetur  nesciunt voluptatum eligendi magnam corrupti earum iusto nam illo inventore, dignissimos, sapiente atque officia aliquid ipsam!
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <img src="imgs/business-desktop.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
     <div class="p-3">
         <menu-vue :active="active"></menu-vue>
         <div class=""></div>
@@ -20,6 +36,9 @@
                     <testimonyVue v-for="(testimony,i) in 9" :key="i"></testimonyVue>
                 </div>
             </div>
+            <div class="">
+                <workForUVue/>
+            </div>
         </div>
     </div>
     <footer-vue></footer-vue>
@@ -35,14 +54,14 @@
     import menuVue from './inc/menu.vue';
     import footerVue from './inc/footer.vue';
     import testimonyVue from './inc/testimony.vue';
-    
-
+    import workForUVue from './inc/workForU.vue';
     export default defineComponent({
         components: {
             Head,
             Link,
             menuVue,
             footerVue,
+            workForUVue,
             testimonyVue,
         },
         data(){

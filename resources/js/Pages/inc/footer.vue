@@ -2,7 +2,7 @@
     <div class="bg-green-200 dark:bg-gray-400 dark:text-white">
         <div class="max-w-7xl mx-auto px-3 md:px-8 pb-6 space-y-3">
             <div class="bg-white dark:bg-gray-600 transform rotate-180 shadow-lg px-4 relative bottom-24 overflow-hidden">
-                <div class="transform -rotate-180 grid grid-cols-1 md:grid-cols-2">
+                <div class="transform -rotate-180 grid grid-cols-1 md:grid-cols-2 md:place-items-end">
                     <div class="py-20 px-4">
                         <div class="uppercase text-4xl font-bold">get in touch now</div>
                         <div class="space-y-6">
@@ -14,8 +14,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="">
-                        sdfjk
+                    <div class="relative flex justify-center px-12">
+                        <div class="absolute h-96 w-96 bg-green-600 rounded-full -bottom-48"></div>
+                        <img src="imgs/6706352.png" alt="" class="mx-auto w-96 md:w-60 z-20">
                     </div>
                 </div>
             </div>
@@ -54,14 +55,15 @@
                             NO.10 Ejerenwa street,Oyigbo Rivers State, Nigeria
                         </div>
                     </div>
-                    <div class="py-5">
-                        <span class="uppercase py-2 px-5 text-white cursor-pointer bg-green-500">download cv</span>
+                    <div class="py-5 flex flex-row md:flex-col lg:flex-row md:space-y-4 lg:space-y-0 space-x-4 md:space-x-0 lg:space-x-4">
+                        <div class=""><span class="text-lg cursor-pointer px-4 py-2 bg-yellow-400 uppercase text-white">hire me</span></div>
+                        <div class=""><span class="uppercase py-2 px-5 text-white cursor-pointer bg-green-500">download cv</span></div>
                     </div>
                 </div>
             </div>
             <hr class="border-green-600 dark:border-gray-100 border-2 border-dotted">
             <div class="flex flex-col md:flex-row justify-center items-center">
-                <div class="flex-grow">Copyright Bube </div>
+                <div class="flex-grow">&copy; Copyright Bube </div>
                 <div class="flex gap-3">
                     <a href="https://github.com/ebuberoderick" target="blank"  class=""><i class="ri-facebook-circle-line text-xl relative top-1 dark:text-gray-300 cursor-pointer hover:scale-75"></i></a>
                     <a href="https://github.com/ebuberoderick" target="blank"  class=""><i class="ri-whatsapp-line text-xl relative top-1 dark:text-gray-300 cursor-pointer hover:scale-75"></i></a>

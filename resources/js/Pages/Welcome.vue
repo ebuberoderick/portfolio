@@ -3,14 +3,14 @@
     <div class="h-screen p-3 flex items-center w-full relative">
         <menu-vue :active="active"></menu-vue>
         <div class="p-3 w-full grid grid-cols-1 lg:grid-cols-2 max-w-7xl mx-auto">
-            <div class="lg:order-2">
-            xcjkjk
+            <div class="lg:order-2 bg-black">
+
             </div>
             <div class="space-y-2">
                 <div class="text-3xl dark:text-gray-200">
-                    Welcome! I'm <span>Bube</span>
+                    Welcome! I'm Bube
                 </div>
-                <div class="text-6xl font-extrabold text-gray-700 dark:text-gray-50 capitalize">software <span class="text-green-600">developer</span></div>
+                <div class="text-6xl font-extrabold text-gray-700 dark:text-gray-50 capitalize">software <span class="text-green-600 underline">developer</span></div>
                 <div class="max-w-md text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-5xl first-letter:font-bold first-letter:text-gray-500 first-letter:mr-3 first-letter:float-left">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus vero provident enim explicabo sapiente, hic officia nobis deleniti, expedita labore vel. Laborum ipsam in 
                 </div>
@@ -25,7 +25,7 @@
         </div>
         <div class="absolute bottom-0 flex justify-center items-center w-screen right-0 animate-bounce text-gray-400">
             <div class="h-16 text-center shadow-lg shadow-green-900 border-gray-400 relative rounded-full border-2" style="">
-                <i class="ri-arrow-down-line text-2xl relative -bottom-7"></i>
+                <span class="text-3xl relative -bottom-6">&darr;</span>
             </div>
         </div>
     </div>
@@ -47,9 +47,7 @@
                                 <span class="text-lg cursor-pointer px-4 py-2 bg-yellow-400 uppercase text-white">hire me</span>
                             </div>
                         </div>
-                        <div class="">
-                            <!-- TODO:img here -->
-                        </div>
+                        
                     </div>
                 </div>
                 <div class=" p-2 lg:px-5 flex justify-center items-center sm:row-span-2 md:row-span-1">
@@ -59,7 +57,7 @@
                             <div class="font-bold text-xl relative bottom-3">WEB DEVELOPMENT</div>
                         </div>
                         <div class="text-sm text-gray-400 cursor-default">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptate deleniti nisi quae aliquam necessitatibus facere Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa, sapiente facere possimus
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. deleniti nisi quae aliquam necessitatibus facere Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa, sapiente facere possimus
                         </div>
                         <div class="">
                             <div class="uppercase text-lg bg-white dark:bg-gray-800 py-2 cursor-pointer text-green-400">learn more</div>
@@ -119,17 +117,17 @@
                         <div class="max-w-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore repellat eum ab beatae nobis ratione consequuntur necessitatibus quasi eaque maxime aliquid ex et laboriosam a, expedita ducimus magnam incidunt.</div>
                     </div>
                     <div class="p-8 pt-0 border-l-2 border-blue-800 relative before:absolute before:w-3 before:bg-yellow-400 before:h-3 before:-top-1 before:rounded-full before:-left-1 after:absolute after:w-3 after:bg-blue-300 after:h-3 after:-top-1 after:rounded-full after:-left-2">
-                        <div class="font-bold text-3xl relative bottom-4">Good UI & UX</div>
+                        <div class="font-bold text-3xl relative bottom-4">Fantastic UI & UX</div>
                         <div class="max-w-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut labore repellat eum ab beatae nobis ratione consequuntur necessitatibus quasi eaque maxime aliquid ex et laboriosam a, expedita ducimus magnam incidunt.</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="py-8 px-3 my-8 bg-gray-100">
-        <div class="max-w-7xl mx-auto">
+    <div class="py-8 px-3 my-8">
+        <div class="max-w-7xl mx-auto bg-gray-200 dark:bg-gray-900 md:px-4 rounded-xl">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 px-3 py-12">
-                <div class="py-8"></div>
+                <div class="py-8 bg-black"></div>
                 <div class="py-8 space-y-5">
                     <div class="text-4xl font-extrabold dark:text-gray-100">I'm <span class="text-yellow-400 font-mono uppercase">skilled</span> @</div>
                     <div class="">
@@ -155,7 +153,15 @@
             <div class="py-5"><img class="w-28 mx-auto h-12 cursor-pointer" src="imgs/logo.png" alt="lieresulte" style="filter: grayscale(100%);"></div>
             <div class="hidden xl:block"></div>
         </div>
-        <div class="">recent</div>
+        <div class="relative">
+            <div class="text-center text-4xl font-bold text-green-400" style="font-family:'Segoe Script'">Some projects i've worked on</div>
+            <div class="max-w-2xl mx-auto text-gray-400 text-center">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi tempore possimus reiciendis doloribus impedit rem distinctio quam pariatur officiis facilis omnis reprehenderit, dignissimos laborum veritatis ipsam! Explicabo quia quam voluptates?
+            </div>
+        </div>
+    </div>
+    <some-works-vue></some-works-vue>
+    <div class="max-w-7xl mx-auto">
         <div class="py-12 pb-40 px-3 space-y-8">
             <div class="">
                 <div class="text-center text-4xl font-bold text-green-400" style="font-family:'Segoe Script'">What people say about me</div>
@@ -187,6 +193,7 @@
     import footerVue from './inc/footer.vue'
     import progressBarVue from './inc/progressBar.vue';
     import testimonyVue from './inc/testimony.vue';
+    import someWorksVue from './inc/someWorks.vue';
     
     
 
@@ -198,6 +205,7 @@
             footerVue,
             progressBarVue,
             testimonyVue,
+            someWorksVue,
         },
 
         props: {
