@@ -1,5 +1,15 @@
 <template>
     <div class="bg-green-200 dark:bg-gray-400 dark:text-white">
+        <div class="fixed group px-3">
+            <div class="fixed bottom-3 right-3 group overflow-hidden">
+                <div class="cursor-pointer z-50 bg-green-300 h-16 w-16 border-2 text-gray-100 border-green-600 flex justify-center items-center rounded-full shadow-lg ">
+                    <i class="ri-cup-line text-3xl"></i>
+                </div>
+                <div class="fixed bottom-20 z-10 right-6 border shadow-lg hidden group-hover:block dark:bg-gray-900 dark:border-gray-600 capitalize bg-white px-4 py-2 rounded-md">
+                    buy me a coffe
+                </div>
+            </div>
+        </div>
         <div class="max-w-7xl mx-auto px-3 md:px-8 pb-6 space-y-3">
             <div class="bg-white dark:bg-gray-600 transform rotate-180 shadow-lg px-4 relative bottom-24 overflow-hidden">
                 <div class="transform -rotate-180 grid grid-cols-1 md:grid-cols-2 md:place-items-end">

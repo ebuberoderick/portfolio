@@ -1,8 +1,15 @@
 <template>
-    <div class="fixed right-0 top-0 w-screen px-3 z-50 bg-gray-300 dark:bg-gray-900 md:bg-transparent md:dark:bg-transparent dark:bg-opacity-40 bg-opacity-40 md:backdrop-blur-lg md:dark:backdrop-blur-lg">
+    <div :class="showMenu?'dark:bg-gray-900 bg-transparent dark:bg-transparent dark:bg-opacity-40 bg-opacity-40 backdrop-blur-lg dark:backdrop-blur-lg':'dark:bg-gray-900 md:bg-transparent md:dark:bg-transparent dark:bg-opacity-40 bg-opacity-40 md:backdrop-blur-lg md:dark:backdrop-blur-lg'" class="fixed right-0 top-0 w-screen px-3 z-50 bg-gray-300">
         <div class="flex max-w-7xl mx-auto py-1 items-center">
             <div class="flex-grow text-2xl text-green-400 py-2" style="font-family:'Segoe Script'">bube</div>
-            <div class="flex pb-16 md:pb-0 flex-col md:flex-row fixed md:relative w-64 md:w-auto left-0 top-0 h-screen md:h-auto bg-gray-300 dark:bg-gray-900 md:bg-transparent md:dark:bg-transparent dark:bg-opacity-40 bg-opacity-40 backdrop-blur-lg dark:backdrop-blur-lg">
+            <div class="md:hidden">
+                <div class="space-y-1 cursor-pointer py-3 px-2" @click="toggleMenu()">
+                    <div class="w-4 h-1 bg-gray-800 dark:bg-gray-500 transition-all duration-1000 delay-100" :class="bar1"></div>
+                    <div class="w-7 h-1 bg-gray-800 dark:bg-gray-500"></div>
+                    <div class="w-4 h-1 bg-gray-800 dark:bg-gray-500 transition-all duration-1000 delay-100" :class="bar2"></div>
+                </div>
+            </div>
+            <div  :class="showMenu?'-left-72 md:left-0':'left-0'" class="flex pb-16 md:pb-0 flex-col md:flex-row fixed md:relative w-64 md:w-auto left-0 top-0 h-screen md:h-auto bg-gray-300 dark:bg-gray-900 md:bg-transparent md:dark:bg-transparent dark:bg-opacity-40 bg-opacity-40 backdrop-blur-lg dark:backdrop-blur-lg">
                 <div class="flex flex-col md:flex-row flex-grow">
                     <Link :href="'welcome'" @mouseenter="hovered = 'welcome'" @mouseleave="hovered = ''" class="relative px-3 py-3 md:py-0 md:px-12 cursor-pointer overflow-hidden md:text-center">
                         <div class="md:absolute w-full top-2 right-0 capitalize " :class="hovered=='welcome' ? 'text-green-400': 'dark:text-gray-300'">
@@ -95,7 +102,10 @@
         data() {
             return {
                 hovered:'',
-                toggleBtn: false
+                toggleBtn: false,
+                bar1:'mx-auto',
+                bar2:'mx-auto',
+                showMenu:true,
             }
         },
         props : {
@@ -113,7 +123,18 @@
                     htmlClasses.add('dark');
                     this.darkMode = true;
                 }
-            }
+            },
+            toggleMenu(){
+                if (this.showMenu) {
+                    this.bar1='ml-auto'
+                    this.bar2=''
+                    this.showMenu = false
+                } else {
+                    this.bar1='mx-auto'
+                    this.bar2='mx-auto'
+                    this.showMenu = true
+                }
+            },
         }
     }
 </script>

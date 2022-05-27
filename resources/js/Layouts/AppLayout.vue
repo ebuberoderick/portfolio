@@ -6,7 +6,7 @@
                 <div class="flex w-full items-center">
                     <div class="flex-grow text-2xl text-green-400" style="font-family:'Segoe Script'">bube</div>
                     <div class="flex items-center gap-3">
-                        <div class="relative">
+                        <div class="relative cursor-pointer">
                             <div class="p-1 left-2 rounded-full bg-red-500 absolute">
                                 <div class="p-1"></div>
                             </div>
@@ -35,7 +35,10 @@
             </div>
             <div class="md:ml-72">
                 <div class="">
-                    <div class="xl:mr-96 p-3"><slot></slot></div>
+                    <div class="xl:mr-96 p-3">
+                        <slot></slot>
+                        <!-- <div class="absolute w-full h-full bg-white top-0 left-0" v-if="traffic"></div> -->
+                    </div>
                     <div class="fixed hidden xl:block w-96 h-screen top-0 right-0">
                         <div class="flex h-full w-full flex-col">
                             <div class="py-8"></div>
@@ -76,7 +79,8 @@
             return {
                 bar1:'mx-auto',
                 bar2:'mx-auto',
-                showMenu:true
+                showMenu:true,
+                traffic:false
             }
         },
 
@@ -91,6 +95,9 @@
                     this.bar2='mx-auto'
                     this.showMenu = true
                 }
+            },
+            traffic(){
+
             }
         },
     })

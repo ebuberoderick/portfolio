@@ -26,15 +26,18 @@ Route::get('/contact', function () {return Inertia::render('contact');})->name('
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->name('dashboard');
+Route::middleware(['auth:sanctum', 'verified'])->get('/qkeefaewwrjvnjsdcvwejkcjwke', function () {
+    return Inertia::render('Dashboard');
+})->name('dashboard');
 Route::middleware(['auth:sanctum', 'verified'])->get('/sdsadcvksvsefvhecresdkscfjh', function () {
     return Inertia::render('jobs');
 })->name('jobs');
 Route::middleware(['auth:sanctum', 'verified'])->get('/oierfoijsadocjoweireogierot', function () {
-    return Inertia::render('review');
+    return Inertia::render('reviews');
 })->name('review');
 Route::middleware(['auth:sanctum', 'verified'])->get('/ljkaefjknejrcwkejvujnieurcv', function () {
     return Inertia::render('skills');
 })->name('skills');
-Route::middleware(['auth:sanctum', 'verified'])->get('/ljkaefjknejrcwkejvujnieurcv', function () {
+Route::middleware(['auth:sanctum', 'verified'])->get('/hdhsfvlkocdfvkolekrvmkioero', function () {
     return Inertia::render('message');
 })->name('message');

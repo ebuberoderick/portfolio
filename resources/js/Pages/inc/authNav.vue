@@ -2,26 +2,26 @@
     <div class="w-full h-full overflow-auto md:overflow-visible flex flex-col px-5 bg-gray-300 dark:bg-gray-900 bg-transparent dark:bg-transparent dark:bg-opacity-40 bg-opacity-40 backdrop-blur-lg dark:backdrop-blur-lg">
         <div class="py-7"></div>
         <div class="flex-grow md:overflow-y-auto space-y-3 pt-4">
-            <div class="flex gap-3 items-center group cursor-pointer" :class="active == 'Dashboard'?'pl-5 text-green-600 dark:text-green-400':'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'">
+            <Link :href="'qkeefaewwrjvnjsdcvwejkcjwke'" class="flex gap-3 items-center group cursor-pointer" :class="active == 'Dashboard'?'pl-5 text-green-600 dark:text-green-400':'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'">
                 <div class="h-8 w-8  rounded-full group-hover:bg-green-400 group-hover:text-white" :class="active == 'Dashboard'?'bg-green-400':'bg-gray-400'"></div>
                 <div class="flex-grow relative" style="top:1px">Dashboard</div>
-            </div>
-            <div class="flex gap-3 items-center group cursor-pointer" :class="active == 'set'?'pl-5 text-green-600 dark:text-green-400':'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'">
-                <div class="h-8 w-8  rounded-full group-hover:bg-green-400 group-hover:text-white" :class="active == 'set'?'bg-green-400':'bg-gray-400'"></div>
+            </Link>
+            <Link :href="'sdsadcvksvsefvhecresdkscfjh'" class="flex gap-3 items-center group cursor-pointer" :class="active == 'jobs'?'pl-5 text-green-600 dark:text-green-400':'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'">
+                <div class="h-8 w-8  rounded-full group-hover:bg-green-400 group-hover:text-white" :class="active == 'jobs'?'bg-green-400':'bg-gray-400'"></div>
                 <div class="flex-grow relative" style="top:1px">Manage Jobs</div>
-            </div>
-            <div class="flex gap-3 items-center group cursor-pointer" :class="active == 'next'?'pl-5 text-green-600 dark:text-green-400':'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'">
-                <div class="h-8 w-8  rounded-full group-hover:bg-green-400 group-hover:text-white" :class="active == 'next'?'bg-green-400':'bg-gray-400'"></div>
+            </Link>
+            <Link :href="'oierfoijsadocjoweireogierot'" class="flex gap-3 items-center group cursor-pointer" :class="active == 'reviews'?'pl-5 text-green-600 dark:text-green-400':'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'">
+                <div class="h-8 w-8  rounded-full group-hover:bg-green-400 group-hover:text-white" :class="active == 'reviews'?'bg-green-400':'bg-gray-400'"></div>
                 <div class="flex-grow relative" style="top:1px">Manage Reviews</div>
-            </div>
-            <div class="flex gap-3 items-center group cursor-pointer" :class="active == 'next'?'pl-5 text-green-600 dark:text-green-400':'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'">
-                <div class="h-8 w-8  rounded-full group-hover:bg-green-400 group-hover:text-white" :class="active == 'next'?'bg-green-400':'bg-gray-400'"></div>
+            </Link>
+            <Link :href="'ljkaefjknejrcwkejvujnieurcv'" class="flex gap-3 items-center group cursor-pointer" :class="active == 'skills'?'pl-5 text-green-600 dark:text-green-400':'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'">
+                <div class="h-8 w-8  rounded-full group-hover:bg-green-400 group-hover:text-white" :class="active == 'skills'?'bg-green-400':'bg-gray-400'"></div>
                 <div class="flex-grow relative" style="top:1px">Manage Skills</div>
-            </div>
-            <div class="flex gap-3 items-center group cursor-pointer xl:hidden" :class="active == 'next'?'pl-5 text-green-600 dark:text-green-400':'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'">
-                <div class="h-8 w-8  rounded-full group-hover:bg-green-400 group-hover:text-white" :class="active == 'next'?'bg-green-400':'bg-gray-400'"></div>
+            </Link>
+            <Link :href="'hdhsfvlkocdfvkolekrvmkioero'" class="flex gap-3 items-center group cursor-pointer xl:hidden" :class="active == 'message'?'pl-5 text-green-600 dark:text-green-400':'hover:pl-5 hover:text-green-600 text-gray-500 dark:text-gray-300'">
+                <div class="h-8 w-8  rounded-full group-hover:bg-green-400 group-hover:text-white" :class="active == 'message'?'bg-green-400':'bg-gray-400'"></div>
                 <div class="flex-grow relative" style="top:1px">Quick Messages</div>
-            </div>
+            </Link>
         </div>
         <div class="py-3 space-y-1 relative">
             <div class="flex flex-col relative bottom-1 md:bottom-2 justify-center space-y-4 md:h-60">
