@@ -1,6 +1,6 @@
 <template>
     <div class="bg-green-200 dark:bg-gray-400 dark:text-white">
-        <div class="fixed group px-3">
+        <div class="fixed z-50 group px-3">
             <div class="fixed bottom-3 right-3 group overflow-hidden">
                 <div class="cursor-pointer z-50 bg-green-300 h-16 w-16 border-2 text-gray-100 border-green-600 flex justify-center items-center rounded-full shadow-lg ">
                     <i class="ri-cup-line text-3xl"></i>

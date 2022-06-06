@@ -1,8 +1,10 @@
 <?php
 
-use Illuminate\Foundation\Application;
-use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Foundation\Application;
+use App\Http\Controllers\TestimonyController;
+use App\Http\Controllers\QuickMessageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,3 +43,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/ljkaefjknejrcwkejvujnieur
 Route::middleware(['auth:sanctum', 'verified'])->get('/hdhsfvlkocdfvkolekrvmkioero', function () {
     return Inertia::render('message');
 })->name('message');
+
+
+
+Route::post('/quickMessage', [QuickMessageController::class, 'quickMessage'])->name('quickMessage');
+Route::post('/testify', [TestimonyController::class, 'testify'])->name('testify');
