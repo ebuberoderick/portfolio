@@ -1,7 +1,7 @@
 <template>
     <div class="mt-8">
         <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="bg-green-500 relative md:rounded-r-3xl pb-0 pt-3 overflow-hidden md:py-3 flex flex-col gap-3 items-center">
+            <div class="bg-teal-500 relative md:rounded-r-3xl pb-0 pt-3 overflow-hidden md:py-3 flex flex-col gap-3 items-center">
                 <div class="px-3 mt-3">
                     <div class="text-white w-40">
                         Am i the right One ?

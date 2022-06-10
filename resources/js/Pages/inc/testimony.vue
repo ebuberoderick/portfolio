@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="font-medium">
-                <div class="text-green-500 dark:text-green-400">
+                <div class="text-teal-500 dark:text-teal-400">
                     Sarah Dayan
                 </div>
                 <div class="text-gray-700 dark:text-gray-500">

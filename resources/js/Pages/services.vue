@@ -25,15 +25,15 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci iure natus ipsam quas doloribus impedit quidem soluta temporibus eius recusandae nisi porro, in maiores possimus beatae nemo quisquam. Voluptatum.
                 </div>
                 <div class="">
-                    <div class="h-16 w-16 rounded-xl flex justify-center items-center bg-green-500 text-white text-2xl leading-4" style="font-family:'impact'">01</div>
+                    <div class="h-16 w-16 rounded-xl flex justify-center items-center bg-teal-500 text-white text-2xl leading-4" style="font-family:'impact'">01</div>
                 </div>
             </div>
-            <div class="bg-green-500 py-24 md:row-span-4 lg:row-span-2 order-first lg:order-none">
+            <div class="bg-teal-500 py-24 md:row-span-4 lg:row-span-2 order-first lg:order-none">
             
             </div>
             <div class="flex gap-3 items-end w-full py-24">
                 <div class="">
-                    <div class="h-16 w-16 rounded-xl flex text-black justify-center items-center lg:bg-opacity-100 lg:bg-green-500 lg:text-white bg-opacity-50 dark:text-gray-100 bg-gray-200 text-2xl leading-4" style="font-family:'impact'">02</div>
+                    <div class="h-16 w-16 rounded-xl flex text-black justify-center items-center lg:bg-opacity-100 lg:bg-teal-500 lg:text-white bg-opacity-50 dark:text-gray-100 bg-gray-200 text-2xl leading-4" style="font-family:'impact'">02</div>
                 </div>
                 <div class="flex-grow text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:font-bold">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci iure natus ipsam quas doloribus impedit quidem soluta temporibus eius recusandae nisi porro, in maiores possimus beatae nemo quisquam. Voluptatum.
@@ -44,7 +44,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci iure natus ipsam quas doloribus impedit quidem soluta temporibus eius recusandae nisi porro, in maiores possimus beatae nemo quisquam. Voluptatum.
                 </div>
                 <div class="">
-                    <div class="h-16 w-16 rounded-xl flex justify-center items-center text-white lg:text-black bg-green-500 lg:bg-opacity-50 lg:dark:text-gray-100 lg:bg-gray-200 text-2xl leading-4" style="font-family:'impact'">03</div>
+                    <div class="h-16 w-16 rounded-xl flex justify-center items-center text-white lg:text-black bg-teal-500 lg:bg-opacity-50 lg:dark:text-gray-100 lg:bg-gray-200 text-2xl leading-4" style="font-family:'impact'">03</div>
                 </div>
             </div>
             <div class="flex gap-3 items-end w-full py-24">

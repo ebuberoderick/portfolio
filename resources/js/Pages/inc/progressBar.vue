@@ -4,8 +4,8 @@
             html
         </div>
         <div class="">
-            <div class="w-full bg-green-400  bg-opacity-25">
-                <div class="px-3 progress-bar-striped text-white bg-green-500 text-center" style="width:70%">
+            <div class="w-full bg-teal-400  bg-opacity-25">
+                <div class="px-3 progress-bar-striped text-white bg-teal-500 text-center" style="width:70%">
                     70%
                 </div>
             </div>

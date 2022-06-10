@@ -4,7 +4,7 @@
         <div class="py-2 sticky top-0 z-50 bg-gray-300 dark:bg-gray-900 bg-transparent dark:bg-transparent dark:bg-opacity-40 bg-opacity-40 backdrop-blur-lg dark:backdrop-blur-lg">
             <div class="max-w-7xl mx-auto px-3">
                 <div class="flex w-full items-center">
-                    <div class="flex-grow text-2xl text-green-400" style="font-family:'Segoe Script'">bube</div>
+                    <div class="flex-grow text-2xl text-teal-400" style="font-family:'Segoe Script'">bube</div>
                     <div class="flex items-center gap-3">
                         <div class="relative cursor-pointer">
                             <div class="p-1 left-2 rounded-full bg-red-500 absolute">
@@ -16,7 +16,7 @@
                             <div class="capitalize text-sm dark:text-white">
                                 onyemzoro ebube
                             </div>
-                            <div class="h-10 w-10 rounded-full bg-green-500"></div>
+                            <div class="h-10 w-10 rounded-full bg-teal-500"></div>
                         </div>
                         <div class="md:hidden">
                             <div class="space-y-1 cursor-pointer py-3 px-2" @click="toggleMenu()">
@@ -44,9 +44,9 @@
                             <div class="py-8"></div>
                             <div class="capitalize font-bold text-lg dark:text-gray-50">quick messages</div>
                             <div class="flex-grow p-3 overflow-y-auto space-y-3">
-                                <div v-for="(index,i) in 7" :key="i" class="p-3 nuum dark:nuum border dark:border-gray-600 cursor-pointer">
+                                <div v-for="(index,i) in 7" :key="i" class="p-3 rounded-md shadow-md dark:shadow-gray-600    border dark:border-gray-600 cursor-pointer">
                                     <div class="capitalize text-lg dark:text-gray-200 relative">onyemzoro ebube roderick <div class="absolute top-1 right-1 text-xs">2 seconds ago</div></div>
-                                    <div class="text-green-500">ebuberoderick2@gmail.com</div>
+                                    <div class="text-teal-500">ebuberoderick2@gmail.com</div>
                                     <div class="truncate text-gray-400 dark:text-gray-300">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est tempora quam tenetur laboriosam voluptate rem, non ab a, modi, reiciendis commodi expedita ea earum eius ipsum iste consequatur accusamus quidem.</div>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@
         box-shadow:  24px 24px 48px #2c3441,-24px -24px 48px #424e61;
     }
     @media (min-width: 640px) {
-    .xs\:bg-green-90 {
+    .xs\:bg-teal-90 {
             --tw-bg-opacity: 1;
             background-color: rgba(127, 29, 9, var(--tw-bg-opacity));
         }

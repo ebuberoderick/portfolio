@@ -6,7 +6,7 @@
             <div class="py-60 bg-black col-span-2 order-2 md:order-5 lg:col-span-3 flex w-full h-full justify-center items-end row-span-2 transition-all duration-1000"></div>
             <div class="col-span-2 order-1 md:order-1 lg:col-span-2 transition-all duration-1000">
                 <div class="capitalize text-3xl dark:text-gray-200">hi i'm</div>
-                <div class="text-3xl lg:text-4xl xl:text-5xl font-extrabold text-green-500 capitalize">
+                <div class="text-3xl lg:text-4xl xl:text-5xl font-extrabold text-teal-500 capitalize">
                     <div class="">onyemzoro</div>
                     <div class="">ebube roderick</div>
                 </div>

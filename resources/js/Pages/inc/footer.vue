@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-green-200 dark:bg-gray-400 dark:text-white">
+    <div class="bg-teal-200 dark:bg-gray-400 dark:text-white">
         <div class="fixed z-50 group px-3">
             <div class="fixed bottom-3 right-3 group overflow-hidden">
-                <div class="cursor-pointer z-50 bg-green-300 h-16 w-16 border-2 text-gray-100 border-green-600 flex justify-center items-center rounded-full shadow-lg ">
+                <div class="cursor-pointer z-50 bg-teal-300 h-16 w-16 border-2 text-gray-100 border-teal-600 flex justify-center items-center rounded-full shadow-lg ">
                     <i class="ri-cup-line text-3xl"></i>
                 </div>
                 <div class="fixed bottom-20 z-10 right-6 border shadow-lg hidden group-hover:block dark:bg-gray-900 dark:border-gray-600 capitalize bg-white px-4 py-2 rounded-md">
@@ -20,12 +20,12 @@
                                 Contact me for any software development, Be it Moblie Application(ios/Andorid), Website and UI/UX. <br> Always ready to speak with you +234 813 0075 358
                             </div>
                             <div class="">
-                                <Link :href="'contact'" class="uppercase py-3 px-5 text-white cursor-pointer bg-green-500">More Contact <i class="ri-arrow-right-line relative top-1"></i></Link>
+                                <Link :href="'contact'" class="uppercase py-3 px-5 text-white cursor-pointer bg-teal-500">More Contact <i class="ri-arrow-right-line relative top-1"></i></Link>
                             </div>
                         </div>
                     </div>
                     <div class="relative flex justify-center px-12">
-                        <div class="absolute h-96 w-96 bg-green-600 rounded-full -bottom-48"></div>
+                        <div class="absolute h-96 w-96 bg-teal-600 rounded-full -bottom-48"></div>
                         <img src="imgs/6706352.png" alt="" class="mx-auto w-96 md:w-60 z-20">
                     </div>
                 </div>
@@ -67,11 +67,11 @@
                     </div>
                     <div class="py-5 flex flex-row md:flex-col lg:flex-row md:space-y-4 lg:space-y-0 space-x-4 md:space-x-0 lg:space-x-4">
                         <div class=""><span class="text-lg cursor-pointer px-4 py-2 bg-yellow-400 uppercase text-white">hire me</span></div>
-                        <div class=""><span class="uppercase py-2 px-5 text-white cursor-pointer bg-green-500">download cv</span></div>
+                        <div class=""><span class="uppercase py-2 px-5 text-white cursor-pointer bg-teal-500">download cv</span></div>
                     </div>
                 </div>
             </div>
-            <hr class="border-green-600 dark:border-gray-100 border-2 border-dotted">
+            <hr class="border-teal-600 dark:border-gray-100 border-2 border-dotted">
             <div class="flex flex-col md:flex-row justify-center items-center">
                 <div class="flex-grow">&copy; Copyright Bube </div>
                 <div class="flex gap-3">
