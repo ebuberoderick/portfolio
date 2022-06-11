@@ -23,4 +23,4 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
 } else {
     document.documentElement.classList.remove('dark')
 }
-InertiaProgress.init({ color: '#4ADE80'});
+InertiaProgress.init({ color: '#0D9488'});

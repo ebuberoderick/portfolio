@@ -23,4 +23,10 @@ class QuickMessageController extends Controller
             ], 502);
         }
     }
+
+    public function fetchMessages()
+    {
+        $quickMessage = quickMessage::orderBy('created_at', 'DESC')->paginate('20');
+        return $quickMessage ;
+    }
 }

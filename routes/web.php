@@ -25,26 +25,34 @@ Route::get('/works', function () {return Inertia::render('works');})->name('work
 Route::get('/testimony', function () {return Inertia::render('testimony');})->name('testimony');
 Route::get('/contact', function () {return Inertia::render('contact');})->name('contact');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->name('dashboard');
-Route::middleware(['auth:sanctum', 'verified'])->get('/qkeefaewwrjvnjsdcvwejkcjwke', function () {
-    return Inertia::render('Dashboard');
-})->name('dashboard');
-Route::middleware(['auth:sanctum', 'verified'])->get('/sdsadcvksvsefvhecresdkscfjh', function () {
-    return Inertia::render('jobs');
-})->name('jobs');
-Route::middleware(['auth:sanctum', 'verified'])->get('/oierfoijsadocjoweireogierot', function () {
-    return Inertia::render('reviews');
-})->name('review');
-Route::middleware(['auth:sanctum', 'verified'])->get('/ljkaefjknejrcwkejvujnieurcv', function () {
-    return Inertia::render('skills');
-})->name('skills');
-Route::middleware(['auth:sanctum', 'verified'])->get('/hdhsfvlkocdfvkolekrvmkioero', function () {
-    return Inertia::render('message');
-})->name('message');
+// fetchTestimony
+
+Route::middleware(['auth:sanctum', 'verified'])->group(function () {
+    Route::get('/dashboard', function () {
+        return Inertia::render('Dashboard');
+    })->name('dashboard');
+    Route::get('/qkeefaewwrjvnjsdcvwejkcjwke', function () {
+        return Inertia::render('Dashboard');
+    })->name('dashboard');
+    Route::get('/sdsadcvksvsefvhecresdkscfjh', function () {
+        return Inertia::render('jobs');
+    })->name('jobs');
+    Route::get('/oierfoijsadocjoweireogierot', function () {
+        return Inertia::render('reviews');
+    })->name('jobs');
+    Route::get('/oierfoijsadocjoweireogierot', function () {
+        return Inertia::render('reviews');
+    })->name('review');
+    Route::get('/ljkaefjknejrcwkejvujnieurcv', function () {
+        return Inertia::render('skills');
+    })->name('skills');
+    Route::get('/hdhsfvlkocdfvkolekrvmkioero', function () {
+        return Inertia::render('message');
+    })->name('message');
 
 
+    Route::post('/fetchMessages', [QuickMessageController::class, 'fetchMessages'])->name('fetchMessages');
+});
 
 Route::post('/quickMessage', [QuickMessageController::class, 'quickMessage'])->name('quickMessage');
 Route::post('/testify', [TestimonyController::class, 'testify'])->name('testify');

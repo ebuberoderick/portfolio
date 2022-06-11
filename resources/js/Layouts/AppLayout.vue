@@ -7,8 +7,11 @@
                     <div class="flex-grow text-2xl text-teal-400" style="font-family:'Segoe Script'">bube</div>
                     <div class="flex items-center gap-3">
                         <div class="relative cursor-pointer">
-                            <div class="p-1 left-2 rounded-full bg-red-500 absolute">
-                                <div class="p-1"></div>
+                            <div style="font-size:10px" class="py-1 px-2 left-2 text-white rounded-full bg-red-500 absolute">
+                                1
+                                <div class="relative w-full h-full">
+                                    <div class="w-ful h-full p-1 left-2 rounded-full animate-ping bg-red-500 absolute"></div>
+                                </div>
                             </div>
                             <i class="ri-notification-2-line text-xl dark:text-gray-300 cursor-pointer"></i>
                         </div>
@@ -16,7 +19,7 @@
                             <div class="capitalize text-sm dark:text-white">
                                 onyemzoro ebube
                             </div>
-                            <div class="h-10 w-10 rounded-full bg-teal-500"></div>
+                            <div class="h-10 w-10 rounded-full bg-no-repeat bg-cover bg-[url('/imgs/6706352.png')]"></div>
                         </div>
                         <div class="md:hidden">
                             <div class="space-y-1 cursor-pointer py-3 px-2" @click="toggleMenu()">
@@ -44,10 +47,10 @@
                             <div class="py-8"></div>
                             <div class="capitalize font-bold text-lg dark:text-gray-50">quick messages</div>
                             <div class="flex-grow p-3 overflow-y-auto space-y-3">
-                                <div v-for="(index,i) in 7" :key="i" class="p-3 rounded-md shadow-md dark:shadow-gray-600    border dark:border-gray-600 cursor-pointer">
-                                    <div class="capitalize text-lg dark:text-gray-200 relative">onyemzoro ebube roderick <div class="absolute top-1 right-1 text-xs">2 seconds ago</div></div>
-                                    <div class="text-teal-500">ebuberoderick2@gmail.com</div>
-                                    <div class="truncate text-gray-400 dark:text-gray-300">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est tempora quam tenetur laboriosam voluptate rem, non ab a, modi, reiciendis commodi expedita ea earum eius ipsum iste consequatur accusamus quidem.</div>
+                                <div v-for="(message,i) in messages" :key="i" class="p-3 rounded-md shadow-md dark:shadow-gray-600    border dark:border-gray-600 cursor-pointer">
+                                    <div class="capitalize text-lg dark:text-gray-200 relative">{{ message.fullname }} <div class="absolute top-1 right-1 text-xs">2 seconds ago</div></div>
+                                    <div class="text-teal-500">{{ message.contact }} </div>
+                                    <div class="truncate text-gray-400 dark:text-gray-300">{{ message.message }} </div>
                                 </div>
                             </div>
                         </div>
@@ -63,6 +66,7 @@
     import { defineComponent } from 'vue'
     import { Head, Link } from '@inertiajs/inertia-vue3';
     import authNav from '../Pages/inc/authNav.vue';
+import axios from 'axios';
     
 
     export default defineComponent({
@@ -77,13 +81,16 @@
         },
         data() {
             return {
+                messages:[],
                 bar1:'mx-auto',
                 bar2:'mx-auto',
                 showMenu:true,
                 traffic:false
             }
         },
-
+        beforeMount() {
+            this.fetchMessages()
+        },
         methods: {
             toggleMenu(){
                 if (this.showMenu) {
@@ -96,9 +103,15 @@
                     this.showMenu = true
                 }
             },
+            fetchMessages(){
+                axios.post('/fetchMessages').then((res) => {
+                    this.messages = res.data.data
+                })
+            },
             traffic(){
 
-            }
+            },
+            
         },
     })
 </script>

@@ -27,6 +27,9 @@
     },
     "dependencies": {
         "remixicon": "^2.5.0",
-        "vue-remix-icons": "^1.1.1"
+        "vanilla-tilt-vue": "^0.1.3",
+        "vue-moment": "^4.1.0",
+        "vue-remix-icons": "^1.1.1",
+        "vue-tilt": "0.0.1"
     }
 }
